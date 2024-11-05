@@ -11,6 +11,10 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
+    "permissions": [
+      "CAMERA",
+      "MEDIA_LIBRARY"
+    ],
     "ios": {
       "supportsTablet": true
     },
@@ -18,10 +22,16 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.motupatlu.plantdiseasedetection"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "05e35027-5fc0-4a38-9f4b-d835988bfae7"
+      }
     }
   }
 }
